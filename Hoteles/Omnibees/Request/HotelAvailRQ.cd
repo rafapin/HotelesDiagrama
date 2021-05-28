@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Hoteles.Omnibees.Request.GetBookings.UniqueID">
+    <Position X="16" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAIAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Omnibees\Request\GetBookings\UniqueID.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hoteles.Omnibees.Request.HotelAvail.Address">
+    <Position X="9.75" Y="1.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAQ=</HashCode>
+      <FileName>Omnibees\Request\HotelAvail\Address.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hoteles.Omnibees.Request.HotelAvail.GuestCount">
+    <Position X="18.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAAQAAAAAAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>Omnibees\Request\HotelAvail\GuestCount.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hoteles.Omnibees.Request.HotelAvail.GuestCountsType" Collapsed="true">
+    <Position X="16" Y="6.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Omnibees\Request\HotelAvail\GuestCountsType.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="GuestCounts" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Hoteles.Omnibees.Request.HotelAvail.HotelAvailRQ">
+    <Position X="0.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAIAAACAAAAAAAAAEAAAAAAAAAAAAAAAEAAIABAAAAA=</HashCode>
+      <FileName>Omnibees\Request\HotelAvail\HotelAvailRQ.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="HotelSearchCriteria" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Hoteles.Omnibees.Request.HotelAvail.HotelRefsCriterion">
+    <Position X="9.75" Y="3" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Omnibees\Request\HotelAvail\HotelRefsCriterion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hoteles.Omnibees.Request.HotelAvail.HotelSearchCriteria" Collapsed="true">
+    <Position X="3.5" Y="5.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Omnibees\Request\HotelAvail\HotelSearchCriteria.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Criterion" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Hoteles.Omnibees.Request.HotelAvail.ProfileInfos" Collapsed="true">
+    <Position X="13" Y="4.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Omnibees\Request\HotelAvail\ProfileInfos.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="UniqueID" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Hoteles.Omnibees.Request.HotelAvail.ProfilesTypeAv" Collapsed="true">
+    <Position X="9.75" Y="4.5" Width="2" />
+    <AssociationLine Name="ProfileInfos" Type="Hoteles.Omnibees.Request.HotelAvail.ProfileInfos" FixedFromPoint="true">
+      <Path>
+        <Point X="11.75" Y="4.75" />
+        <Point X="13" Y="4.75" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Omnibees\Request\HotelAvail\ProfilesTypeAv.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="ProfileInfos" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Hoteles.Omnibees.Request.HotelAvail.RoomStayCandidate">
+    <Position X="13" Y="5.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAAAAAAAAAAAAABAAgAAAAAgAAAAAA=</HashCode>
+      <FileName>Omnibees\Request\HotelAvail\RoomStayCandidate.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="GuestCountsType" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Hoteles.Omnibees.Request.HotelAvail.RoomStayCandidatesType" Collapsed="true">
+    <Position X="9.75" Y="5.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAA=</HashCode>
+      <FileName>Omnibees\Request\HotelAvail\RoomStayCandidatesType.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="RoomStayCandidates" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Hoteles.Omnibees.Request.HotelAvail.StayDateRange">
+    <Position X="9.75" Y="6.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAACACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Omnibees\Request\HotelAvail\StayDateRange.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hoteles.Omnibees.Request.HotelAvail.Criterion">
+    <Position X="6.25" Y="5.25" Width="2" />
+    <AssociationLine Name="Address" Type="Hoteles.Omnibees.Request.HotelAvail.Address" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="6.625" Y="5.25" />
+        <Point X="6.625" Y="1.912" />
+        <Point X="9.75" Y="1.912" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="RoomStayCandidatesType" Type="Hoteles.Omnibees.Request.HotelAvail.RoomStayCandidatesType" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="8.25" Y="6.25" />
+        <Point X="9.379" Y="6.25" />
+        <Point X="9.379" Y="5.75" />
+        <Point X="9.75" Y="5.75" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="ProfilesType" Type="Hoteles.Omnibees.Request.HotelAvail.ProfilesTypeAv" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="8.25" Y="5.75" />
+        <Point X="8.625" Y="5.75" />
+        <Point X="8.625" Y="4.75" />
+        <Point X="9.75" Y="4.75" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="StayDateRange" Type="Hoteles.Omnibees.Request.HotelAvail.StayDateRange" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="7.625" Y="6.546" />
+        <Point X="7.625" Y="7.493" />
+        <Point X="9.75" Y="7.493" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAARAAAAAAAAAAAAACACAAAAIIAAA=</HashCode>
+      <FileName>Omnibees\Request\HotelAvail\Criterion.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Address" />
+      <Property Name="RoomStayCandidatesType" />
+      <Property Name="HotelRefs" />
+      <Property Name="ProfilesType" />
+      <Property Name="StayDateRange" />
+    </ShowAsAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

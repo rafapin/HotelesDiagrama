@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Hoteles.Omnibees.Request.GetBookings.GetBookingsRQ">
+    <Position X="0.75" Y="1" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>IAIAAACAAAAAAAAAAAQAAAAAAAAAAAQAEAAAAAAAAAA=</HashCode>
+      <FileName>Omnibees\Request\GetBookings\GetBookingsRQ.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="UniqueID" />
+      <Property Name="ReadRequestsType" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Hoteles.Omnibees.Request.GetBookings.HotelReadRequest">
+    <Position X="5.25" Y="2.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>Omnibees\Request\GetBookings\HotelReadRequest.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="HoteRef" />
+      <Property Name="SelectionCriteria" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Hoteles.Omnibees.Request.GetBookings.HoteRef">
+    <Position X="7.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Omnibees\Request\GetBookings\HoteRef.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hoteles.Omnibees.Request.GetBookings.ReadRequestsType" Collapsed="true">
+    <Position X="3" Y="2.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Omnibees\Request\GetBookings\ReadRequestsType.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="HotelReadRequests" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Hoteles.Omnibees.Request.GetBookings.SelectionCriteria">
+    <Position X="7.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Omnibees\Request\GetBookings\SelectionCriteria.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hoteles.Omnibees.Request.GetBookings.UniqueID">
+    <Position X="3" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAIAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Omnibees\Request\GetBookings\UniqueID.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

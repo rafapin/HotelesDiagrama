@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Hoteles.Shared.ImagenHabitacion" Collapsed="true">
+    <Position X="9" Y="5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAQAAAAAAAAAAgAAAAAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>Shared\ImagenHabitacion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hoteles.Shared.ImagenHotel" Collapsed="true">
+    <Position X="3.75" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>Shared\ImagenHotel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hoteles.Shared.ImagenBase" Collapsed="true">
+    <Position X="3.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAABAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>Shared\ImagenHotel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AV.Response.Hoteles.HotelAV">
+    <Position X="3" Y="3" Width="2" />
+    <AssociationLine Name="Destino" Type="Hoteles.Response.AV.DestinoAV" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="5" Y="3.333" />
+        <Point X="5.24" Y="3.333" />
+        <Point X="5.24" Y="1.031" />
+        <Point X="5.75" Y="1.031" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AEASAIAABGIAAgAAESAAgBABIAAAQAAAEgAAAgAAEAQ=</HashCode>
+      <FileName>AV\Response\HotelAV.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Destino" />
+      <Property Name="CadenaHotelera" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="Habitaciones" />
+      <Property Name="Servicios" />
+      <Property Name="Imagenes" />
+      <Property Name="HabitacionesHotel" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Hoteles.Response.AV.CadenaHoteleraAV" Collapsed="true">
+    <Position X="3" Y="1.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAACAIAAAAAAAAAAAAAAgAABAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AV\Response\CadenaHoteleraAV.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AV.Response.Hoteles.HabitacionAV">
+    <Position X="5.5" Y="1.5" Width="2" />
+    <AssociationLine Name="Imagenes" Type="Hoteles.Shared.ImagenHabitacion" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="6.5" Y="5.49" />
+        <Point X="6.5" Y="5.738" />
+        <Point X="7.75" Y="5.738" />
+        <Point X="7.75" Y="5.281" />
+        <Point X="9" Y="5.281" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAACAMgAAAEAABAGEQAAwBQAAAABAAAAAAUAAAAAAII=</HashCode>
+      <FileName>AV\Response\HabitacionAV.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="TipoAcomodacion" />
+      <Property Name="TipoCama" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="Imagenes" />
+      <Property Name="Servicios" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Hoteles.Response.AV.ServicioHotelAV" Collapsed="true">
+    <Position X="5.75" Y="6.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAgAAAAAAAgAAAAAAAAAAAAQQgAAAAAAA=</HashCode>
+      <FileName>AV\Response\ServicioHotelAV.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hoteles.Response.AV.HabitacionConTarifasAV" Collapsed="true">
+    <Position X="5.75" Y="7.25" Width="2" />
+    <AssociationLine Name="Imagenes" Type="Hoteles.Shared.ImagenHabitacion" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="7.75" Y="7.375" />
+        <Point X="10.125" Y="7.375" />
+        <Point X="10.125" Y="5.562" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="TiposAlimento" Type="Hoteles.Response.AV.TiposAlimentosAV" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="7.438" Y="7.812" />
+        <Point X="7.438" Y="8.781" />
+        <Point X="9.25" Y="8.781" />
+      </Path>
+    </AssociationLine>
+    <AssociationLine Name="HabitacionesHijas" Type="Hoteles.Response.AV.HabitacionConTarifasAV" ManuallyRouted="true">
+      <Path>
+        <Point X="6.436" Y="7.812" />
+        <Point X="6.436" Y="8.062" />
+        <Point X="7.079" Y="8.062" />
+        <Point X="7.079" Y="7.812" />
+      </Path>
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-0.042" Y="0.983" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAASQIgAQAEAABAEEQABwBQgAAABAAAAAAUAAAAAAIM=</HashCode>
+      <FileName>AV\Response\HabitacionConTarifasAV.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Imagenes" />
+      <Property Name="TarifasHabitacion" />
+      <Property Name="TiposAlimento" />
+      <Property Name="HabitacionesHijas" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Hoteles.Response.AV.TarifaHabitacionAV" Collapsed="true">
+    <Position X="9.25" Y="7.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>gAAgAGABACIAAADEBBDoC6ABBhBIAABKAQEUYIKgBQM=</HashCode>
+      <FileName>AV\Response\TarifaHabitacionAV.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hoteles.Response.AV.TiposAlimentosAV" Collapsed="true">
+    <Position X="9.25" Y="8.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAARAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>AV\Response\TarifaHabitacionAV.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hoteles.Response.AV.TipoAcomodacionAV" Collapsed="true">
+    <Position X="9" Y="4.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AV\Response\TipoAcomodacionAV.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hoteles.Response.AV.ServicioHabitacionAV" Collapsed="true">
+    <Position X="9" Y="3.5" Width="3.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAAAAABAAAggAAAAAAAAAAAQAgAAAAAAA=</HashCode>
+      <FileName>AV\Response\ServicioHabitacionAV.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hoteles.Response.AV.TipoCamaAV" Collapsed="true">
+    <Position X="9" Y="2.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AV\Response\TipoCamaAV.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hoteles.Response.AV.CityAV" Collapsed="true">
+    <Position X="7.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AV\Response\CityAV.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hoteles.Response.AV.DestinoAV" Collapsed="true">
+    <Position X="5.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAgAAAAAAAAAIAAAAAAABAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>AV\Response\DestinoAV.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="City" />
+    </ShowAsAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

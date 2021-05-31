@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Hoteles.RateGain.HotelPropertyListGet.HotelPropertyListGetRQ">
+    <Position X="1.75" Y="1.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAACAAABAAAAAAAAAACAAIABAEAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RateGain\HotelPropertyListGet\HotelPropertyListGetRQ.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Authentication" />
+      <Property Name="HotelPropertyListRequest" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Hoteles.RateGain.HotelPropertyListGet.Authentication">
+    <Position X="6.25" Y="1" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAQAAAAAAAAA=</HashCode>
+      <FileName>RateGain\HotelPropertyListGet\HotelPropertyListGetRQ.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hoteles.RateGain.HotelPropertyListGet.HotelPropertyListRequest">
+    <Position X="6.25" Y="2.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RateGain\HotelPropertyListGet\HotelPropertyListGetRQ.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

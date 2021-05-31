@@ -1,2 +1,375 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ClassDiagram /> 
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Hoteles.Omnibees.Response.HotelAvail.HotelAvailRS" Collapsed="true">
+    <Position X="7.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>oAKAAECAAAAAAAAAAAABACAAAgCAAAAAgAAAABABSAA=</HashCode>
+      <FileName>Omnibees\Response\HotelAvail\HotelAvailRS.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hoteles.Omnibees.Response.HotelAvail.Criteria" Collapsed="true">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Omnibees\Response\HotelAvail\HotelAvailRS.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hoteles.Omnibees.Response.HotelAvail.Criterion" Collapsed="true">
+    <Position X="5.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIEAAAAAAQAAAgARIAAAAAAAAwAAACgCAABAIKAAA=</HashCode>
+      <FileName>Omnibees\Response\HotelAvail\HotelAvailRS.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hoteles.Omnibees.Response.HotelAvail.Address" Collapsed="true">
+    <Position X="5.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ICIAAAAAIAAAAAAAIAAAAAAAAABAAAgAAAAAABAQAAQ=</HashCode>
+      <FileName>Omnibees\Response\HotelAvail\HotelAvailRS.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hoteles.Omnibees.Response.HotelAvail.RoomStayCandidatesType" Collapsed="true">
+    <Position X="2.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAA=</HashCode>
+      <FileName>Omnibees\Response\HotelAvail\HotelAvailRS.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hoteles.Omnibees.Response.HotelAvail.RoomStayCandidate" Collapsed="true">
+    <Position X="0.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAADAAAAAAAAAAAAAAAAAAAAAAgAAAAAgAAAAAA=</HashCode>
+      <FileName>Omnibees\Response\HotelAvail\HotelAvailRS.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hoteles.Omnibees.Response.HotelAvail.GuestCountsType" Collapsed="true">
+    <Position X="4" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Omnibees\Response\HotelAvail\HotelAvailRS.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hoteles.Omnibees.Response.HotelAvail.GuestCount" Collapsed="true">
+    <Position X="2.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAAQAAAABAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>Omnibees\Response\HotelAvail\HotelAvailRS.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hoteles.Omnibees.Response.HotelAvail.StayDateRange" Collapsed="true">
+    <Position X="12.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAACACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Omnibees\Response\HotelAvail\HotelAvailRS.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hoteles.Omnibees.Response.HotelAvail.HotelStaysType" Collapsed="true">
+    <Position X="12.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Omnibees\Response\HotelAvail\HotelAvailRS.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hoteles.Omnibees.Response.HotelAvail.HotelStay" Collapsed="true">
+    <Position X="11" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAEAQAAAAAAACABAAAAAAAAAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>Omnibees\Response\HotelAvail\HotelAvailRS.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hoteles.Omnibees.Response.HotelAvail.BasicPropertyInfo" Collapsed="true">
+    <Position X="12.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAAgAQIAAAAAAAAQAAACADAAIAAAACA=</HashCode>
+      <FileName>Omnibees\Response\HotelAvail\HotelAvailRS.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hoteles.Omnibees.Response.HotelAvail.Award" Collapsed="true">
+    <Position X="11" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>Omnibees\Response\HotelAvail\HotelAvailRS.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hoteles.Omnibees.Response.HotelAvail.HotelRef" Collapsed="true">
+    <Position X="9.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAAABAAAIAAIAAAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>Omnibees\Response\HotelAvail\HotelAvailRS.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hoteles.Omnibees.Response.HotelAvail.Position" Collapsed="true">
+    <Position X="0.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Omnibees\Response\HotelAvail\HotelAvailRS.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hoteles.Omnibees.Response.HotelAvail.Price" Collapsed="true">
+    <Position X="2.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAACACAAAAAQAABAAAAAAAAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>Omnibees\Response\HotelAvail\HotelAvailRS.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hoteles.Omnibees.Response.HotelAvail.HotelStayTpaExtensions" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Omnibees\Response\HotelAvail\HotelAvailRS.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hoteles.Omnibees.Response.HotelAvail.RoomStaysType" Collapsed="true">
+    <Position X="4" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Omnibees\Response\HotelAvail\HotelAvailRS.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hoteles.Omnibees.Response.HotelAvail.RoomStay" Collapsed="true">
+    <Position X="12.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAmBCCAAEAAAAAAAAABAAAAEIAAQQgAgAgkAAAAAAA=</HashCode>
+      <FileName>Omnibees\Response\HotelAvail\HotelAvailRS.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hoteles.Omnibees.Response.HotelAvail.RatePlan" Collapsed="true">
+    <Position X="5.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAEBCAAIAIQAAAIBQAAAAEAEAAAAACBgAAgCCAAAAA=</HashCode>
+      <FileName>Omnibees\Response\HotelAvail\HotelAvailRS.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hoteles.Omnibees.Response.HotelAvail.AdditionalDetailsType" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Omnibees\Response\HotelAvail\HotelAvailRS.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hoteles.Omnibees.Response.HotelAvail.AdditionalDetail" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>Omnibees\Response\HotelAvail\HotelAvailRS.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hoteles.Omnibees.Response.HotelAvail.Iption" Collapsed="true">
+    <Position X="2.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAACAAgAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Omnibees\Response\HotelAvail\HotelAvailRS.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hoteles.Omnibees.Response.HotelAvail.PenaltyDescription" Collapsed="true">
+    <Position X="12.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAgAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Omnibees\Response\HotelAvail\HotelAvailRS.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hoteles.Omnibees.Response.HotelAvail.CancelPenalty" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAABAAAAEAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Omnibees\Response\HotelAvail\HotelAvailRS.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hoteles.Omnibees.Response.HotelAvail.AmountPercent" Collapsed="true">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAQAAAACAAAAAAAAAAAAACAAAAIA=</HashCode>
+      <FileName>Omnibees\Response\HotelAvail\HotelAvailRS.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hoteles.Omnibees.Response.HotelAvail.DeadLine" Collapsed="true">
+    <Position X="7.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgQAgAAAAA=</HashCode>
+      <FileName>Omnibees\Response\HotelAvail\HotelAvailRS.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hoteles.Omnibees.Response.HotelAvail.Commission" Collapsed="true">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAA=</HashCode>
+      <FileName>Omnibees\Response\HotelAvail\HotelAvailRS.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hoteles.Omnibees.Response.HotelAvail.Guarantee" Collapsed="true">
+    <Position X="12.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACIAAAABACACEAAAAACAAAAAAAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Omnibees\Response\HotelAvail\HotelAvailRS.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hoteles.Omnibees.Response.HotelAvail.GuaranteesAcceptedType" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Omnibees\Response\HotelAvail\HotelAvailRS.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hoteles.Omnibees.Response.HotelAvail.AcceptedPayment" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAAAAAMAAAAAAAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>Omnibees\Response\HotelAvail\HotelAvailRS.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hoteles.Omnibees.Response.HotelAvail.MealsIncluded" Collapsed="true">
+    <Position X="4" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAgAAAAEAAQAAQAFAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Omnibees\Response\HotelAvail\HotelAvailRS.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hoteles.Omnibees.Response.HotelAvail.Offer" Collapsed="true">
+    <Position X="7.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAgAAAEAAiAAAAAAAAAAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>Omnibees\Response\HotelAvail\HotelAvailRS.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hoteles.Omnibees.Response.HotelAvail.Description" Collapsed="true">
+    <Position X="9.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Omnibees\Response\HotelAvail\HotelAvailRS.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hoteles.Omnibees.Response.HotelAvail.Discount" Collapsed="true">
+    <Position X="11" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAGAAAAAABIAAACAAAAAAAAAAAAAACAEAAAE=</HashCode>
+      <FileName>Omnibees\Response\HotelAvail\HotelAvailRS.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hoteles.Omnibees.Response.HotelAvail.OfferRule" Collapsed="true">
+    <Position X="9.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAIAAAA=</HashCode>
+      <FileName>Omnibees\Response\HotelAvail\HotelAvailRS.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hoteles.Omnibees.Response.HotelAvail.PaymentPolicies" Collapsed="true">
+    <Position X="11" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Omnibees\Response\HotelAvail\HotelAvailRS.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hoteles.Omnibees.Response.HotelAvail.RatePlanInclusion" Collapsed="true">
+    <Position X="7.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAICAAAAACACAAAAAAAAAAAAAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>Omnibees\Response\HotelAvail\HotelAvailRS.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hoteles.Omnibees.Response.HotelAvail.TaxPolicy" Collapsed="true">
+    <Position X="2.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAIAAAgAEAACQAAAAQAAAAAAAAAIAAgAAAAAAA=</HashCode>
+      <FileName>Omnibees\Response\HotelAvail\HotelAvailRS.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hoteles.Omnibees.Response.HotelAvail.RoomRate" Collapsed="true">
+    <Position X="11" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEBAACAAaACAAAAAABAAEAAAAAQAAAggAGAAAAAAA=</HashCode>
+      <FileName>Omnibees\Response\HotelAvail\HotelAvailRS.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hoteles.Omnibees.Response.HotelAvail.Availability" Collapsed="true">
+    <Position X="9.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>Omnibees\Response\HotelAvail\HotelAvailRS.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hoteles.Omnibees.Response.HotelAvail.RatesType" Collapsed="true">
+    <Position X="9.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Omnibees\Response\HotelAvail\HotelAvailRS.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hoteles.Omnibees.Response.HotelAvail.GuestsTotalRate" Collapsed="true">
+    <Position X="5.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAEAAAAAAAA=</HashCode>
+      <FileName>Omnibees\Response\HotelAvail\HotelAvailRS.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hoteles.Omnibees.Response.HotelAvail.TotalTpaExtensions" Collapsed="true">
+    <Position X="5.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gEAAAAAAAAAAAAAAAAAAEAAAAAgIAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Omnibees\Response\HotelAvail\HotelAvailRS.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hoteles.Omnibees.Response.HotelAvail.Total" Collapsed="true">
+    <Position X="4" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAAAQAAFAAACAAAAAAAgAAAAAAAAAE=</HashCode>
+      <FileName>Omnibees\Response\HotelAvail\HotelAvailRS.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hoteles.Omnibees.Response.HotelAvail.Rate" Collapsed="true">
+    <Position X="4" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAEAAACAIAAAQAAgQkkAAgAQAAAAAEAABAAAAA=</HashCode>
+      <FileName>Omnibees\Response\HotelAvail\HotelAvailRS.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hoteles.Omnibees.Response.HotelAvail.ServiceRph" Collapsed="true">
+    <Position X="9.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Omnibees\Response\HotelAvail\HotelAvailRS.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hoteles.Omnibees.Response.HotelAvail.RoomType" Collapsed="true">
+    <Position X="5.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAECAAAAAAAgAAAAIAhAAAAAAAAAAAAAABAAAAA=</HashCode>
+      <FileName>Omnibees\Response\HotelAvail\HotelAvailRS.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hoteles.Omnibees.Response.HotelAvail.Occupancy" Collapsed="true">
+    <Position X="5.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAEAAAAAAAAAAQAAAQAAAAAAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>Omnibees\Response\HotelAvail\HotelAvailRS.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hoteles.Omnibees.Response.HotelAvail.Service" Collapsed="true">
+    <Position X="7.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgCAAAAAQAAQAAAAAAAABAAAAAAEAAAgAAAgAAEAAA=</HashCode>
+      <FileName>Omnibees\Response\HotelAvail\HotelAvailRS.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hoteles.Omnibees.Response.HotelAvail.ServiceTpaExtensions" Collapsed="true">
+    <Position X="11" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Omnibees\Response\HotelAvail\HotelAvailRS.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hoteles.Omnibees.Response.HotelAvail.Success" Collapsed="true">
+    <Position X="0.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Omnibees\Response\HotelAvail\HotelAvailRS.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="Hoteles.Omnibees.Response.HotelAvail.AvailabilityStatus" Collapsed="true">
+    <Position X="0.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>Omnibees\Response\HotelAvail\HotelAvailRS.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

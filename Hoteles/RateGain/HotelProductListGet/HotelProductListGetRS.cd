@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Hoteles.RateGain.HotelProductListGet.HotelProductListGetRS">
+    <Position X="0.75" Y="2.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>IAAEAACAAABAAQAAAAAAACAAAgAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RateGain\HotelProductListGet\HotelProductListGetRS.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Errors" />
+      <Property Name="HotelProducts" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Hoteles.RateGain.HotelProductListGet.Error">
+    <Position X="8" Y="2.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAQAACAAAAAA=</HashCode>
+      <FileName>RateGain\HotelProductListGet\HotelProductListGetRS.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hoteles.RateGain.HotelProductListGet.Errors">
+    <Position X="4.25" Y="2.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RateGain\HotelProductListGet\HotelProductListGetRS.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Error" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Hoteles.RateGain.HotelProductListGet.ProductReference">
+    <Position X="11.5" Y="4" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAACA=</HashCode>
+      <FileName>RateGain\HotelProductListGet\HotelProductListGetRS.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hoteles.RateGain.HotelProductListGet.HotelProduct">
+    <Position X="8" Y="4" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>RateGain\HotelProductListGet\HotelProductListGetRS.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="ProductReference" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Hoteles.RateGain.HotelProductListGet.HotelProducts">
+    <Position X="4.25" Y="3.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAACAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RateGain\HotelProductListGet\HotelProductListGetRS.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="HotelProduct" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

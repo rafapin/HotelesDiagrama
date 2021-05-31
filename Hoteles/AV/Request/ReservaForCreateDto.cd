@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Hoteles.AV.Request.ReservaForCreateDto.ActividadUsuarioDto" Collapsed="true">
+    <Position X="4.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAIEEAAAAAAAAAIAEAAACACAEAAAAAkA=</HashCode>
+      <FileName>AV\Request\ReservaForCreateDto\ActividadUsuarioDto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hoteles.AV.Request.ReservaForCreateDto.CaracteristicaReservaForCreateDto" Collapsed="true">
+    <Position X="4.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAgAAAAAAAAABAAAAAAAAAAAAAACAAAAAAAAAACAAAA=</HashCode>
+      <FileName>AV\Request\ReservaForCreateDto\CaracteristicaReservaForCreateDto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hoteles.AV.Request.ReservaForCreateDto.MetodoPagoForCreateDto" Collapsed="true">
+    <Position X="4.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>FAgACABEAAAAAEIAAAAAQABEJMCEABECAAAQhAaAAAA=</HashCode>
+      <FileName>AV\Request\ReservaForCreateDto\MetodoPagoForCreateDto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hoteles.AV.Request.ReservaForCreateDto.PorcionTerrestreReservaForCreateDto" Collapsed="true">
+    <Position X="4.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAQgAAAAAAgAAAAAAAAACAQAAAABAAAA=</HashCode>
+      <FileName>AV\Request\ReservaForCreateDto\PorcionTerrestreReservaForCreateDto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hoteles.AV.Request.ReservaForCreateDto.ReservaForCreateDto">
+    <Position X="1.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAYBABAABQYggDAABAAAAAgAAYAACAAQAAABgAAA=</HashCode>
+      <FileName>AV\Request\ReservaForCreateDto\ReservaForCreateDto.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Eventos" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="Viajeros" />
+      <Property Name="MetodosDePago" />
+      <Property Name="PorcionesTerrestre" />
+      <Property Name="Tiquetes" />
+      <Property Name="Toures" />
+      <Property Name="Caracteristicas" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Hoteles.AV.Request.ReservaForCreateDto.ReservaTourForCreateDto" Collapsed="true">
+    <Position X="4.75" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAIAAAAAIAAAAAAAAAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>AV\Request\ReservaForCreateDto\ReservaTourForCreateDto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hoteles.AV.Request.ReservaForCreateDto.TiqueteReservaForCreateDto" Collapsed="true">
+    <Position X="4.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAIQAAAQAAAAAAAAAAAgAAAAEAIAAAQAAAQAACAAAA=</HashCode>
+      <FileName>AV\Request\ReservaForCreateDto\TiqueteReservaForCreateDto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hoteles.AV.Request.ReservaForCreateDto.ViajeroForCreateDto" Collapsed="true">
+    <Position X="4.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAIAAAQAACAAIAAAAAAAAAAAAAAAggAAQAA=</HashCode>
+      <FileName>AV\Request\ReservaForCreateDto\ViajeroForCreateDto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

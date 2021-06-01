@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Hoteles.Omnibees.Request.HotelSearch.Address" Collapsed="true">
+    <Position X="8.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAQ=</HashCode>
+      <FileName>Omnibees\Request\HotelSearch\HotelSearchRQ.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hoteles.Omnibees.Request.HotelSearch.Criterion" Collapsed="true">
+    <Position X="6" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>Omnibees\Request\HotelSearch\HotelSearchRQ.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Address" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Hoteles.Omnibees.Request.HotelSearch.Criteria" Collapsed="true">
+    <Position X="3.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Omnibees\Request\HotelSearch\HotelSearchRQ.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Criterion" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Hoteles.Omnibees.Request.HotelSearch.HotelSearchRQ">
+    <Position X="0.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAKAAECAAAAAAAAAAAABACAAAAAAAAAAEAAAAAAAAAA=</HashCode>
+      <FileName>Omnibees\Request\HotelSearch\HotelSearchRQ.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Criteria" />
+    </ShowAsAssociation>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

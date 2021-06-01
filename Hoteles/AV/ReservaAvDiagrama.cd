@@ -1,0 +1,327 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Comment CommentText="Las relaciones de la tabla hoteles esta el otro diagrama">
+    <Position X="8.222" Y="19.517" Height="0.75" Width="1.7" />
+  </Comment>
+  <Class Name="Hoteles.AV.Response.ReservaAV">
+    <Position X="7.25" Y="5.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>CMgSASBEBEKBRankDARBAIAgAoAAcAACAAAAAABgBAE=</HashCode>
+      <FileName>AV\Response\ReservaAV.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Paquete" />
+      <Property Name="Eventos" />
+      <Property Name="Circuito" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="Viajeros" />
+      <Property Name="ViajerosActualizer" />
+      <Property Name="MetodosDePago" />
+      <Property Name="PorcionesTerrestre" />
+      <Property Name="Tiquetes" />
+      <Property Name="Abonos" />
+      <Property Name="Toures" />
+      <Property Name="Caracteristicas" />
+      <Property Name="HabitacionesDetalles" />
+      <Property Name="HabitacionesDisponibles" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Hoteles.AV.Response.PaqueteAV">
+    <Position X="10.75" Y="13.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>BBAGAQAAIAFAQAAgqAAAkBEDEhAAYgEKFAIUCEAgQEA=</HashCode>
+      <FileName>AV\Response\PaqueteAV.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="hotel" />
+      <Property Name="Empresa" />
+      <Property Name="EstadoPaquete" />
+      <Property Name="Subcategoria" />
+      <Property Name="Categoria" />
+      <Property Name="CiudadOrigen" />
+      <Property Name="CiudadArribo" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="Imagenes" />
+      <Property Name="Caracteristicas" />
+      <Property Name="PorcionesTerrestre" />
+      <Property Name="RangosFecha" />
+      <Property Name="Excepciones" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Hoteles.Response.AV.CityAV" Collapsed="true">
+    <Position X="14.5" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AV\Response\CityAV.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hoteles.AV.Response.CircuitoAV">
+    <Position X="11.75" Y="6.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>IBAAAAAAIAEAAAAgAAABwACJEAAAAAFqAAAEAAAIAAA=</HashCode>
+      <FileName>AV\Response\CircuitoAV.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Empresa" />
+      <Property Name="CategoriaCircuito" />
+      <Property Name="TipoMoneda" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="Itinerarios" />
+      <Property Name="RangosFechaCircuito" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Hoteles.AV.Response.ItinerarioAV" Collapsed="true">
+    <Position X="18" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAIAAAAAAAAAABgAABAACAAYBgAAQAAgQAAAQ=</HashCode>
+      <FileName>AV\Response\ItinerarioAV.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hoteles.AV.Response.PorcionTerrestreReservaAV" Collapsed="true">
+    <Position X="9.75" Y="1.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AACCAAwAAAAAAQgGAAABAgQAIAAAAAAAAQQAAABAAAI=</HashCode>
+      <FileName>AV\Response\PorcionTerrestreReservaAV.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hoteles.AV.Response.ViajeroAV">
+    <Position X="12.75" Y="0.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAQEACAAIAAAAAAAAAAAAAQAggAAQAA=</HashCode>
+      <FileName>AV\Response\ViajeroAV.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hoteles.AV.Response.FormaPagoAV" Collapsed="true">
+    <Position X="3" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>FAgACABEAAAASMIAAAAAQABEJMCEABECAAAQjA6AAAA=</HashCode>
+      <FileName>AV\Response\FormaPagoAV.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hoteles.AV.Response.TiqueteReservaAV" Collapsed="true">
+    <Position X="7" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAKQAAAQACAAAAEAIAAgAABAEAIABAQAAAQAACAABA=</HashCode>
+      <FileName>AV\Response\TiqueteReservaAV.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hoteles.AV.Response.AbonoReservaAV" Collapsed="true">
+    <Position X="12" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAQAAIBAAAIAEAARAAABEAIQAAAYAAQAEAAAIAAA=</HashCode>
+      <FileName>AV\Response\AbonoReservaAV.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hoteles.AV.Response.ReservaTourAV">
+    <Position X="3" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAhAAAAAAAAAIAEAAAIAAAAAAAAAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>AV\Response\ReservaTourAV.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Tour" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Hoteles.Shared.CaracteristicaReserva">
+    <Position X="15" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAgAAAAAAAAABAAEAAAAAAAAAAACwAAAAAAAAACAAAA=</HashCode>
+      <FileName>Shared\CaracteristicaReserva.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Caracteristica" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Hoteles.Shared.ActividadUsuario" Collapsed="true">
+    <Position X="4" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAIEEAAAAAAAAAIAEAAACACAEAAAAAkA=</HashCode>
+      <FileName>Shared\ActividadUsuario.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hoteles.Response.AV.HabitacionConTarifasAV">
+    <Position X="3.75" Y="6.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAASQIgAQAEAABAEEQABwBQgAAABAAAAAAUAAAAAAIM=</HashCode>
+      <FileName>AV\Response\HabitacionConTarifasAV.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Imagenes" />
+      <Property Name="Servicios" />
+      <Property Name="TarifasHabitacion" />
+      <Property Name="TiposAlimento" />
+      <Property Name="HabitacionesHijas" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="AV.Response.Hoteles.HotelAV" Collapsed="true">
+    <Position X="6.5" Y="19.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEASAIAABGIAAgAAESAAgBABIAAAQAAAEgAAAgAAEAQ=</HashCode>
+      <FileName>AV\Response\HotelAV.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hoteles.AV.Response.EmpresaAV">
+    <Position X="17" Y="11.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AIFIEABAAGHBAAABECgpgEgABAEEBJYCQIggQgQAEQA=</HashCode>
+      <FileName>AV\Response\EmpresaAV.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Ciudad" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="ProveedoresGDSCliente" />
+      <Property Name="Documentos" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Hoteles.Shared.EstadoPaquete" Collapsed="true">
+    <Position X="7.5" Y="13.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAEAABAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Shared\EstadoPaquete.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hoteles.Shared.Subcategoria" Collapsed="true">
+    <Position X="14.5" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAgAAAIAAAAAgEAAAgAAAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Shared\Subcategoria.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hoteles.Shared.Categoria" Collapsed="true">
+    <Position X="7.5" Y="17.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAAEAAAgAAAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Shared\Categoria.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hoteles.Shared.Imagen" Collapsed="true">
+    <Position X="7.5" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAACAAIAAAAAAAAAAIAAA=</HashCode>
+      <FileName>Shared\Imagen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hoteles.Shared.Caracteristica" Collapsed="true">
+    <Position X="13.5" Y="20.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAQAABAAAAAAAABAAAAIAAAAAEAAAACIAA=</HashCode>
+      <FileName>Shared\Caracteristica.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hoteles.Shared.PorcionTerrestrePaquete" Collapsed="true">
+    <Position X="13.5" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAiAAwAAAIAAABCBAAAAAQAIABAIAACAAUQAEAABII=</HashCode>
+      <FileName>Shared\PorcionTerrestrePaquete.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hoteles.Shared.RangoFechaPaquete" Collapsed="true">
+    <Position X="10.5" Y="20.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAEAAAAAAAAAAAAAAIAAAAAgAAAAAAAA=</HashCode>
+      <FileName>Shared\RangoFechaPaquete.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hoteles.Shared.ExcepcionPaquete" Collapsed="true">
+    <Position X="10.5" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAQAAIAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Shared\ExcepcionPaquete.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hoteles.Shared.ProveedorGDSCliente" Collapsed="true">
+    <Position X="23.75" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAACAAABAAAAAAEAAAiAAAAAAAAAAA=</HashCode>
+      <FileName>Shared\ProveedorGDSCliente.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hoteles.Shared.DocumentosEmpresa" Collapsed="true">
+    <Position X="23.75" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAAAAAAAAAAAAAAAACAACAAAAAAAAAAA=</HashCode>
+      <FileName>Shared\DocumentosEmpresa.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hoteles.AV.Response.TourAV">
+    <Position X="3.5" Y="16.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>IBAAAiAAAEYAAgAFEqAAoAIBAAAiAAACAAEEAggAEIQ=</HashCode>
+      <FileName>AV\Response\TourAV.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Empresa" />
+      <Property Name="TipoTour" />
+      <Property Name="Destino" />
+      <Property Name="TipoMoneda" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Hoteles.Shared.TipoTour" Collapsed="true">
+    <Position X="1.25" Y="21.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAABAAACAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Shared\TipoTour.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hoteles.Shared.Destino" Collapsed="true">
+    <Position X="1.25" Y="19.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAgAAAAAAAAAIAAAAAAABAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Shared\Destino.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hoteles.Shared.TipoMoneda" Collapsed="true">
+    <Position X="13.75" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>Shared\TipoMoneda.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hoteles.Shared.RangoFechaCircuito" Collapsed="true">
+    <Position X="18" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAEAgAAAAAAAAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>Shared\RangoFechaCircuito.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hoteles.Shared.CategoriaCircuito" Collapsed="true">
+    <Position X="18" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAgAAAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>Shared\CategoriaCircuito.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hoteles.Shared.ImagenHabitacion" Collapsed="true">
+    <Position X="0.5" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAQAAAAAAAAAAgAAAAAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>Shared\ImagenHabitacion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hoteles.Response.AV.ServicioHabitacionAV" Collapsed="true">
+    <Position X="1.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAAAAABAAAggAAAAAAAAAAAQAgAAAAAAA=</HashCode>
+      <FileName>AV\Response\ServicioHabitacionAV.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hoteles.Response.AV.TarifaHabitacionAV" Collapsed="true">
+    <Position X="1.5" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAgAGABACIAAADEBBDoC6ABBhBIAABKAQEUYIKgBQM=</HashCode>
+      <FileName>AV\Response\TarifaHabitacionAV.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hoteles.Response.AV.TiposAlimentosAV" Collapsed="true">
+    <Position X="1.5" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAARAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>AV\Response\TarifaHabitacionAV.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

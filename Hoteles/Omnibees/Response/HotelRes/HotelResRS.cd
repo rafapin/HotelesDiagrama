@@ -1,0 +1,414 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Hoteles.Omnibees.Response.HotelRes.ReservaForCreateRS">
+    <Position X="8.5" Y="17" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAQYggBAABAAAAAgAAYAACAAQAAABgAAA=</HashCode>
+      <FileName>Omnibees\Response\HotelRes\ReservaForCreateRS.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Viajeros" />
+      <Property Name="MetodosDePago" />
+      <Property Name="PorcionesTerrestre" />
+      <Property Name="Caracteristicas" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Hoteles.AV.Request.ReservaForCreateDto.ViajeroForCreateDto" Collapsed="true">
+    <Position X="11.5" Y="21.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAIAAAQAACAAIAAAAAAAAAAAAAAAggAAQAA=</HashCode>
+      <FileName>AV\Request\ReservaForCreateDto\ViajeroForCreateDto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hoteles.AV.Request.ReservaForCreateDto.MetodoPagoForCreateDto" Collapsed="true">
+    <Position X="11.5" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>FAgACABEAAAAAEIAAAAAQABEJMCEABECAAAQhAaAAAA=</HashCode>
+      <FileName>AV\Request\ReservaForCreateDto\MetodoPagoForCreateDto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hoteles.AV.Request.ReservaForCreateDto.PorcionTerrestreReservaForCreateDto" Collapsed="true">
+    <Position X="8.5" Y="21.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAQgAAAAAAgAAAAAAAAACAQAAAABAAAA=</HashCode>
+      <FileName>AV\Request\ReservaForCreateDto\PorcionTerrestreReservaForCreateDto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hoteles.AV.Request.ReservaForCreateDto.CaracteristicaReservaForCreateDto" Collapsed="true">
+    <Position X="8.5" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAgAAAAAAAAABAAAAAAAAAAAAAACAAAAAAAAAACAAAA=</HashCode>
+      <FileName>AV\Request\ReservaForCreateDto\CaracteristicaReservaForCreateDto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hoteles.Omnibees.Response.HotelRes.ResStatus" Collapsed="true">
+    <Position X="5.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>Omnibees\Response\HotelRes\HotelResRs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hoteles.Omnibees.Response.HotelRes.Total" Collapsed="true">
+    <Position X="13.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAAAQAAFAAACAAAAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>Omnibees\Response\HotelRes\HotelResRs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hoteles.Omnibees.Response.HotelRes.Rate">
+    <Position X="14.25" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAEAAAAAQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Omnibees\Response\HotelRes\HotelResRs.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Total" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Hoteles.Omnibees.Response.HotelRes.RatesType">
+    <Position X="16.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Omnibees\Response\HotelRes\HotelResRs.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Rates" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Hoteles.Omnibees.Response.HotelRes.RoomRate">
+    <Position X="17" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAACAAAAAAACAAAAAAEAAABAAAAAAEAEAAAAAAA=</HashCode>
+      <FileName>Omnibees\Response\HotelRes\HotelResRs.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="total" />
+      <Property Name="RatesType" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Hoteles.Omnibees.Response.HotelRes.GuestCount" Collapsed="true">
+    <Position X="19.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAAQAAAABAAAAAAAAEAAAAAA=</HashCode>
+      <FileName>Omnibees\Response\HotelRes\HotelResRs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hoteles.Omnibees.Response.HotelRes.GuestCountsType" Collapsed="true">
+    <Position X="17.75" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Omnibees\Response\HotelRes\HotelResRs.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="GuestCounts" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Hoteles.Omnibees.Response.HotelRes.HotelRef" Collapsed="true">
+    <Position X="16.75" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Omnibees\Response\HotelRes\HotelResRs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hoteles.Omnibees.Response.HotelRes.BasicPropertyInfo">
+    <Position X="14.75" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAA=</HashCode>
+      <FileName>Omnibees\Response\HotelRes\HotelResRs.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="HotelRef" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Hoteles.Omnibees.Response.HotelRes.Comment" Collapsed="true">
+    <Position X="17.75" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Omnibees\Response\HotelRes\HotelResRs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hoteles.Omnibees.Response.HotelRes.CommentsType">
+    <Position X="14.75" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>Omnibees\Response\HotelRes\HotelResRs.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Comments" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Hoteles.Omnibees.Response.HotelRes.RoomStay">
+    <Position X="14.75" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAGAAAAAEAAAAAAAAAAAAAAAIABAAgAAEggAAAAAAA=</HashCode>
+      <FileName>Omnibees\Response\HotelRes\HotelResRs.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="total" />
+      <Property Name="GuestCountsType" />
+      <Property Name="BasicPropertyInfo" />
+      <Property Name="CommentsType" />
+    </ShowAsAssociation>
+    <ShowAsCollectionAssociation>
+      <Property Name="RoomRates" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Hoteles.Omnibees.Response.HotelRes.RoomStaysType">
+    <Position X="11.75" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Omnibees\Response\HotelRes\HotelResRs.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="RoomStays" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Hoteles.Omnibees.Response.HotelRes.PersonName" Collapsed="true">
+    <Position X="15.5" Y="16.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Omnibees\Response\HotelRes\HotelResRs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hoteles.Omnibees.Response.HotelRes.Customer">
+    <Position X="15.5" Y="18.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Omnibees\Response\HotelRes\HotelResRs.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="PersonName" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Hoteles.Omnibees.Response.HotelRes.Profile">
+    <Position X="15.5" Y="20.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Omnibees\Response\HotelRes\HotelResRs.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Customer" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Hoteles.Omnibees.Response.HotelRes.ProfileInfo" Collapsed="true">
+    <Position X="5.75" Y="19.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>Omnibees\Response\HotelRes\HotelResRs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hoteles.Omnibees.Response.HotelRes.Profiles">
+    <Position X="5.75" Y="17.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Omnibees\Response\HotelRes\HotelResRs.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="ProfileInfos" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Hoteles.Omnibees.Response.HotelRes.ResGuest">
+    <Position X="5.75" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAAAAgAAAEAAAAAAAAABAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>Omnibees\Response\HotelRes\HotelResRs.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Profiles" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Hoteles.Omnibees.Response.HotelRes.ResGuestsType">
+    <Position X="5.75" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>Omnibees\Response\HotelRes\HotelResRs.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="ResGuests" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Hoteles.Omnibees.Response.HotelRes.TimeSpan" Collapsed="true">
+    <Position X="10.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAACACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Omnibees\Response\HotelRes\HotelResRs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hoteles.Omnibees.Response.HotelRes.HotelReservationID" Collapsed="true">
+    <Position X="11.25" Y="3.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAAAAAEAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Omnibees\Response\HotelRes\HotelResRs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hoteles.Omnibees.Response.HotelRes.HotelReservationsIDsType">
+    <Position X="11.5" Y="5.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Omnibees\Response\HotelRes\HotelResRs.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="HotelReservationIDs" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Hoteles.Omnibees.Response.HotelRes.PaymentCard" Collapsed="true">
+    <Position X="4.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAEAAEAAAAAAAAAAAAAAAAAAAAACAEAAAAAAAAAAAA=</HashCode>
+      <FileName>Omnibees\Response\HotelRes\HotelResRs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hoteles.Omnibees.Response.HotelRes.GuaranteesAccepted">
+    <Position X="4.25" Y="2.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAEAAAAAAAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>Omnibees\Response\HotelRes\HotelResRs.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="PaymentCard" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Hoteles.Omnibees.Response.HotelRes.GuaranteesAcceptedType">
+    <Position X="4.5" Y="4.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Omnibees\Response\HotelRes\HotelResRs.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="GuaranteesAccepted" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Hoteles.Omnibees.Response.HotelRes.DeadLine" Collapsed="true">
+    <Position X="4.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgQAgAAAAA=</HashCode>
+      <FileName>Omnibees\Response\HotelRes\HotelResRs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hoteles.Omnibees.Response.HotelRes.AmountPercent" Collapsed="true">
+    <Position X="7.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAQAAAACAAAAAAAAAAAAACAAAAIA=</HashCode>
+      <FileName>Omnibees\Response\HotelRes\HotelResRs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hoteles.Omnibees.Response.HotelRes.Guarantee">
+    <Position X="7.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAAAAABAAAAEAAAAACAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Omnibees\Response\HotelRes\HotelResRs.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="GuaranteesAcceptedType" />
+      <Property Name="DeadLine" />
+      <Property Name="AmountPercent" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Hoteles.Omnibees.Response.HotelRes.TPA_Extensions" Collapsed="true">
+    <Position X="5.75" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Omnibees\Response\HotelRes\HotelResRs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hoteles.Omnibees.Response.HotelRes.Warnings" Collapsed="true">
+    <Position X="0.75" Y="7" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Omnibees\Response\HotelRes\HotelResRs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hoteles.Omnibees.Response.HotelRes.WarningsType">
+    <Position X="0.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Omnibees\Response\HotelRes\HotelResRs.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Warnings" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Hoteles.Omnibees.Response.HotelRes.ResGlobalInfo">
+    <Position X="11.75" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAEQAAAAAAAQ=</HashCode>
+      <FileName>Omnibees\Response\HotelRes\HotelResRs.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Guarantee" />
+      <Property Name="HotelReservationsIDsType" />
+      <Property Name="TimeSpan" />
+      <Property Name="total" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Hoteles.Omnibees.Response.HotelRes.UniqueID" Collapsed="true">
+    <Position X="8.75" Y="13.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Omnibees\Response\HotelRes\HotelResRs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hoteles.Omnibees.Response.HotelRes.HotelReservation">
+    <Position X="8.75" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAACAAEAACAQAAAAAAACAAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>Omnibees\Response\HotelRes\HotelResRs.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="POS" />
+      <Property Name="ResGlobalInfo" />
+      <Property Name="ResGuestsType" />
+      <Property Name="ResStatus" />
+      <Property Name="RoomStaysType" />
+      <Property Name="TPA_Extensions" />
+      <Property Name="UniqueID" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Hoteles.Omnibees.Response.HotelRes.POSType">
+    <Position X="11.75" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Omnibees\Response\HotelRes\HotelResRs.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="Sources" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Hoteles.Omnibees.Response.HotelRes.Source" Collapsed="true">
+    <Position X="13.75" Y="15.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>Omnibees\Response\HotelRes\HotelResRs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hoteles.Omnibees.Response.HotelRes.HotelReservationsType">
+    <Position X="8.5" Y="9" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAAgACAAAAAAAAAAAAAABAAAAAAAAAE=</HashCode>
+      <FileName>Omnibees\Response\HotelRes\HotelResRs.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsCollectionAssociation>
+      <Property Name="HabitacionesDisponibles" />
+      <Property Name="HotelReservations" />
+    </ShowAsCollectionAssociation>
+  </Class>
+  <Class Name="Hoteles.Omnibees.Response.HotelRes.HotelResRQ">
+    <Position X="3" Y="8.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>IAIAAACAgAAAAAAgAAAAACAAAAAAAAAAEAAAAAABAAA=</HashCode>
+      <FileName>Omnibees\Response\HotelRes\HotelResRs.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="WarningsType" />
+      <Property Name="HotelReservationsType" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Hoteles.Response.AV.HabitacionConTarifasAV" Collapsed="true">
+    <Position X="3.25" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAASQIgAQAEAABAEEQABwBQgAAABAAAAAAUAAAAAAIM=</HashCode>
+      <FileName>AV\Response\HabitacionConTarifasAV.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

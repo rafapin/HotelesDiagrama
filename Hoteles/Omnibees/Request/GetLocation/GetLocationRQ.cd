@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Hoteles.Omnibees.Request.GetLocation.CitiesRQ">
+    <Position X="1" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAIAAACAAAAAAAAAAAAAASAAAAAAgAAAEAAAAAAAAAA=</HashCode>
+      <FileName>Omnibees\Request\GetLocation\CitiesRQ.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hoteles.Omnibees.Request.GetLocation.CountriesRQ">
+    <Position X="5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAIAAACAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAA=</HashCode>
+      <FileName>Omnibees\Request\GetLocation\CountriesRQ.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Hoteles.Omnibees.Request.GetLocation.StatesRQ">
+    <Position X="3" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAIAAACAAAAAAAAAAAAAACAAAAAAgAAAEAAAAAAAAAA=</HashCode>
+      <FileName>Omnibees\Request\GetLocation\StatesRQ.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
